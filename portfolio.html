@@ -19,39 +19,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <!-- Шапка сайту -->
     <header class="header">
       <div class="container">
-        <a class="logo" href="./index.html"><span class="logo-color">Web</span>Studio</a>
-        <nav class="header-nav">
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="nav-link link" href="./index.html">Студія</a>
+        <a class="logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
+        <nav class="header__nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link current link" href="./index.html">Студія</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link current link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__link link nav__link--current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="">Контакти</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="mailto:info@devstudio.com">
-              <svg class="header-evenlope" width="16" height="12">
+        <ul class="header-contacts list">
+          <li class="header-contacts__item">
+            <a class="header-contacts__link link" href="mailto:info@devstudio.com">
+              <svg class="header-contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="tel:+380961111111"
-              ><svg class="header-evenlope" width="10" height="16">
+          <li class="header-contacts__item">
+            <a class="header-contacts__link link" href="tel:+380961111111"
+              ><svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -65,239 +65,239 @@
       <section class="filters section">
         <div class="container">
           <h1 class="visually-hidden">Список проектів</h1>
-          <ul class="filter-list list">
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Усі</button>
+          <ul class="filter__list list">
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Усі</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Веб&#8722;сайти</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Веб&#8722;сайти</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Додатки</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Додатки</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="project-list list">
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+          <ul class="project__list list">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-1.jpg"
                     alt="проєкт технокряк"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Технокряк</h2>
-                  <p class="project-text">Веб-сайт</p>
+                <div class="project__border">
+                  <h2 class="project__name">Технокряк</h2>
+                  <p class="project__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-2.jpg"
                     alt="постер New Orlea"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-                  <p class="project-text">Дизайн</p>
+                <div class="project__border">
+                  <h2 class="project__name">Постер New Orlean vs Golden Star</h2>
+                  <p class="project__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-3.jpg"
                     alt="Ресторан Seafood"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Ресторан Seafood</h2>
-                  <p class="project-text">Додаток</p>
+                <div class="project__border">
+                  <h2 class="project__name">Ресторан Seafood</h2>
+                  <p class="project__text">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-4.jpg"
                     alt="Проєкт Prime"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Проєкт Prime</h2>
-                  <p class="project-text">Маркетинг</p>
+                <div class="project__border">
+                  <h2 class="project__name">Проєкт Prime</h2>
+                  <p class="project__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-5.jpg"
                     alt="Проєкт Boxes"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Проєкт Boxes</h2>
-                  <p class="project-text">Додаток</p>
+                <div class="project__border">
+                  <h2 class="project__name">Проєкт Boxes</h2>
+                  <p class="project__text">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-6.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Inspiration has no Borders</h2>
-                  <p class="project-text">Веб-сайт</p>
+                <div class="project__border">
+                  <h2 class="project__name">Inspiration has no Borders</h2>
+                  <p class="project__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-7.jpg"
                     alt="Видання Limited Edition"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Видання Limited Edition</h2>
-                  <p class="project-text">Дизайн</p>
+                <div class="project__border">
+                  <h2 class="project__name">Видання Limited Edition</h2>
+                  <p class="project__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-8.jpg"
                     alt="Проєкт LAB"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Проєкт LAB</h2>
+                <div class="project__border">
+                  <h2 class="project__name">Проєкт LAB</h2>
 
-                  <p class="project-text">Маркетинг</p>
+                  <p class="project__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link link" href="">
+                <div class="project__thumb">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project-9.jpg"
                     alt="Growing Business"
                     width="370"
                     height="294"
                   />
-                  <div class="project-overlay">
-                    <p class="overlay-text">
+                  <div class="project__overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="project-border">
-                  <h2 class="project-name">Growing Business</h2>
-                  <p class="project-text">Додаток</p>
+                <div class="project__border">
+                  <h2 class="project__name">Growing Business</h2>
+                  <p class="project__text">Додаток</p>
                 </div></a
               >
             </li>
@@ -307,80 +307,84 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="footer-containers container">
-        <div class="footer-adres">
-          <a class="footer-logo" href="./index.html"><span class="logo-color">Web</span>Studio</a>
+      <div class="footer__containers container">
+        <div class="footer__address">
+          <a class="footer__logo" href="./index.html"
+            ><span class="logo__accent">Web</span>Studio</a
+          >
           <address class="address">
-            <ul class="footer-list list">
-              <li class="footer-item">
+            <ul class="address__list list">
+              <li class="address__item">
                 <a
-                  class="footer-address link"
+                  class="address__link link"
                   href="https://goo.gl/maps/1MUiwfSM5o2cwTpF7"
                   target="_blank"
                   rel="noopener noreferrer"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-item">
-                <a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="address__item">
+                <a class="address__link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="footer-item">
-                <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="address__team">
+                <a class="address__link link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-social">
-          <h2 class="footer-title">Приєднуйтесь</h2>
+          <h2 class="footer__title">Приєднуйтесь</h2>
           <ul class="social list">
             <li class="item">
               <a
-                class="footer-social-link link"
+                class="footer-social__link link"
                 href="https://www.instagram.com/"
                 aria-label="instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social-icons" width="20" height="20">
+                <svg class="footer-social__icons" width="20" height="20">
                   <use href="./images/icons.svg.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a
-                class="footer-social-link link"
+                class="footer-social__link link"
                 href="https://twitter.com/?lang=uk"
                 aria-label="twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social-icons" width="20" height="20">
+                <svg class="footer-social__icons" width="20" height="20">
                   <use href="./images/icons.svg.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a
-                class="footer-social-link link"
+                class="footer-social__link link"
                 href="https://www.facebook.com/"
                 aria-label="facebook"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social-icons" width="20" height="20">
+                <svg class="footer-social__icons" width="20" height="20">
                   <use href="./images/icons.svg.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a
-                class="footer-social-link link"
+                class="footer-social__link link"
                 href="https://www.linkedin.com/"
                 aria-label="linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social-icons" width="20" height="20">
+                <svg class="footer-social__icons" width="20" height="20">
                   <use href="./images/icons.svg.svg#linkedin"></use>
                 </svg>
               </a>
@@ -388,14 +392,14 @@
           </ul>
         </div>
         <div class="form-email">
-          <h2 class="footer-title">Підпишіться на розсилку</h2>
-          <form class="footer-form">
-            <label class="footer-label" for="mail"></label>
-            <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail" />
+          <b class="footer__title">Підпишіться на розсилку</b>
+          <form class="footer__form">
+            <label class="footer__label" for="mail"></label>
+            <input class="footer__input" type="email" name="mail" id="mail" placeholder="E-mail" />
 
-            <button class="footer-btn" type="submit">
-              <span class="footer-btn-text">Підписатися</span>
-              <svg class="send-icon" width="24" height="24">
+            <button class="footer__btn" type="submit">
+              Підписатися
+              <svg class="send__icon" width="24" height="24">
                 <use href="./images/icons.svg.svg#icon-send"></use>
               </svg>
             </button>
