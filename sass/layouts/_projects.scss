@@ -1,4 +1,4 @@
-.project__list {
+.project {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -29,10 +29,6 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &:hover .project__overlay,
-  &:focus .project__overlay {
-    transform: translateY(0);
-  }
 }
 
 .project__thumb {
@@ -48,6 +44,10 @@
   background-color: var(--accent-color);
   transform: translateY(101%);
   transition: transform 250ms;
+  .project__link:hover &,
+  .project__link:focus & {
+    transform: translateY(0);
+  }
 }
 .overlay__text {
   font-size: 18px;

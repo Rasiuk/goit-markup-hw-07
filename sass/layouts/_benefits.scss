@@ -1,5 +1,4 @@
-.benefits__list {
-  list-style: none;
+.benefits {
   display: flex;
 }
 .benefits__item {
@@ -10,7 +9,7 @@
   }
 }
 
-.benefits__icon {
+.benefits__icon-box {
   width: 270px;
   height: 120px;
   display: flex;

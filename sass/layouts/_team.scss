@@ -1,17 +1,4 @@
 .team {
-  background-color: var(--background-gray);
-}
-
-.team__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  margin-bottom: 50px;
-}
-.team__list {
   display: flex;
 }
 .team__item {
@@ -29,7 +16,7 @@
 .team__img {
 }
 
-.team__name {
+.team__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
